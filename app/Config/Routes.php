@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // CLI route to convert a CSV file into JSON and XML
 $routes->cli('convert_csv', 'Cli::ConvertCSV');
 
-// 
+// Returns the filtered results based on the search
 $routes->get('/', 'Api::GetFilteredResults');
 
 /*
